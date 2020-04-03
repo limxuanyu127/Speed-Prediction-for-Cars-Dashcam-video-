@@ -9,10 +9,10 @@ After doing some research, it seemed that it is essential to capture temporal fe
 
 There are 2 kinds of optical flow images: Sparse and Dense. Dense optical flow images consider every single pixel of the 2 frames, and generates a flow vector for each pixel. Dense optical flow is also thought of to be more accurate, so I decided to generate dense optical flow images.
 
-|test|test|
-|---|---|
-<img src="images/frame0.jpg" alt = "optical image generated form frame 0 and 1" width = "200" style="width:100%"> |<img src="images/trainData_frame0.PNG" alt = "frame0" width="200" style="width:100%">|<img src="images/trainData_frame1.PNG" alt = "frame1" width = "200" style="width:100%">
-*From left to right: optical flow image generated from frame0 and frame1; frame0; frame1*
+|Optical flow image (from frame 0 and 1)|Frame0| Frame1 |
+|---|---|--|
+<img src="images/frame0.jpg" alt = "optical image generated form frame 0 and 1" width = "200"> |<img src="images/trainData_frame0.PNG" alt = "frame0" width="200" style="width:100%">|<img src="images/trainData_frame1.PNG" alt = "frame1" width = "200" style="width:100%">
+
 
 
 
