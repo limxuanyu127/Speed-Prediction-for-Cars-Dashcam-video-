@@ -9,9 +9,9 @@ After doing some research, it seemed that it is essential to capture temporal fe
 
 There are 2 kinds of optical flow images: Sparse and Dense. Dense optical flow images consider every single pixel of the 2 frames, and generates a flow vector for each pixel. Dense optical flow is also thought of to be more accurate, so I decided to generate dense optical flow images.
 
-<img src="images/frame0.jpg" alt = "optical image generated form frame 0 and 1">
-<img src="images/trainData_frame0.png" alt = "frame0">
-<img src="images/trainData_frame1.png" alt = "frame1">
+<img src="images/frame0.jpg" alt = "optical image generated form frame 0 and 1" width = "150">
+<img src="images/trainData_frame0.PNG" alt = "frame0" width="150">
+<img src="images/trainData_frame1.PNG" alt = "frame1" width = "150">
 
 ## Methodology
 The following is a very brief description of the steps I took to complete the project, as well as the files that was used to complete each step.
@@ -32,7 +32,7 @@ The 2 challenges that I faced during this project was 1) Time Constraint and 2) 
 ### 1. Data poorly distributed
 The data distribution is skewed. There were very few data in the middle ranges and the bottom ranges (where speed =0). 
 
-<img src="images/trainData_distribution.png" alt = "training data distribution">
+<img src="images/trainData_distribution.PNG" alt = "training data distribution" width ="150">
 
 One way to circumvent this could be to do some form of data gereation for data in these regions.
 
